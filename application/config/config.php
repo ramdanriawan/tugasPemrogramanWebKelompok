@@ -24,8 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 */
 $config['base_url']            = "http://$_SERVER[SERVER_NAME]";
-$config['basePath']           = "$_SERVER[DOCUMENT_ROOT]";
-$config['baseClientLibrary'] = "$config[basePath]node_modules";
+$config['basePath']            = "$_SERVER[DOCUMENT_ROOT]";
+$config['baseClientLibrary']   = "$config[basePath]node_modules";
 
 /*
 |--------------------------------------------------------------------------
